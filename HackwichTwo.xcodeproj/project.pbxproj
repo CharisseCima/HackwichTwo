@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3E61C228C9AD3A00E08921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E61C128C9AD3A00E08921 /* AppDelegate.swift */; };
+		CF3E61C428C9AD3A00E08921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E61C328C9AD3A00E08921 /* SceneDelegate.swift */; };
+		CF3E61C628C9AD3A00E08921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E61C528C9AD3A00E08921 /* ViewController.swift */; };
+		CF3E61C928C9AD3A00E08921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3E61C728C9AD3A00E08921 /* Main.storyboard */; };
+		CF3E61CB28C9AD3B00E08921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3E61CA28C9AD3B00E08921 /* Assets.xcassets */; };
+		CF3E61CE28C9AD3B00E08921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3E61CC28C9AD3B00E08921 /* LaunchScreen.storyboard */; };
+		CF3E61D928C9AD3B00E08921 /* HackwichTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E61D828C9AD3B00E08921 /* HackwichTwoTests.swift */; };
+		CF3E61E428C9AD3B00E08921 /* HackwichTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E61E328C9AD3B00E08921 /* HackwichTwoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3E61D528C9AD3B00E08921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3E61B628C9AD3A00E08921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3E61BD28C9AD3A00E08921;
+			remoteInfo = HackwichTwo;
+		};
+		CF3E61E028C9AD3B00E08921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3E61B628C9AD3A00E08921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3E61BD28C9AD3A00E08921;
+			remoteInfo = HackwichTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3E61BE28C9AD3A00E08921 /* HackwichTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3E61C128C9AD3A00E08921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3E61C328C9AD3A00E08921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF3E61C528C9AD3A00E08921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3E61C828C9AD3A00E08921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3E61CA28C9AD3B00E08921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3E61CD28C9AD3B00E08921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3E61CF28C9AD3B00E08921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3E61D428C9AD3B00E08921 /* HackwichTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3E61D828C9AD3B00E08921 /* HackwichTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTwoTests.swift; sourceTree = "<group>"; };
+		CF3E61DA28C9AD3B00E08921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3E61DF28C9AD3B00E08921 /* HackwichTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3E61E328C9AD3B00E08921 /* HackwichTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTwoUITests.swift; sourceTree = "<group>"; };
+		CF3E61E528C9AD3B00E08921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3E61BB28C9AD3A00E08921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E61D128C9AD3B00E08921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E61DC28C9AD3B00E08921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3E61B528C9AD3A00E08921 = {
+			isa = PBXGroup;
+			children = (
+				CF3E61C028C9AD3A00E08921 /* HackwichTwo */,
+				CF3E61D728C9AD3B00E08921 /* HackwichTwoTests */,
+				CF3E61E228C9AD3B00E08921 /* HackwichTwoUITests */,
+				CF3E61BF28C9AD3A00E08921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3E61BF28C9AD3A00E08921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E61BE28C9AD3A00E08921 /* HackwichTwo.app */,
+				CF3E61D428C9AD3B00E08921 /* HackwichTwoTests.xctest */,
+				CF3E61DF28C9AD3B00E08921 /* HackwichTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3E61C028C9AD3A00E08921 /* HackwichTwo */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E61C128C9AD3A00E08921 /* AppDelegate.swift */,
+				CF3E61C328C9AD3A00E08921 /* SceneDelegate.swift */,
+				CF3E61C528C9AD3A00E08921 /* ViewController.swift */,
+				CF3E61C728C9AD3A00E08921 /* Main.storyboard */,
+				CF3E61CA28C9AD3B00E08921 /* Assets.xcassets */,
+				CF3E61CC28C9AD3B00E08921 /* LaunchScreen.storyboard */,
+				CF3E61CF28C9AD3B00E08921 /* Info.plist */,
+			);
+			path = HackwichTwo;
+			sourceTree = "<group>";
+		};
+		CF3E61D728C9AD3B00E08921 /* HackwichTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E61D828C9AD3B00E08921 /* HackwichTwoTests.swift */,
+				CF3E61DA28C9AD3B00E08921 /* Info.plist */,
+			);
+			path = HackwichTwoTests;
+			sourceTree = "<group>";
+		};
+		CF3E61E228C9AD3B00E08921 /* HackwichTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E61E328C9AD3B00E08921 /* HackwichTwoUITests.swift */,
+				CF3E61E528C9AD3B00E08921 /* Info.plist */,
+			);
+			path = HackwichTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3E61BD28C9AD3A00E08921 /* HackwichTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3E61E828C9AD3B00E08921 /* Build configuration list for PBXNativeTarget "HackwichTwo" */;
+			buildPhases = (
+				CF3E61BA28C9AD3A00E08921 /* Sources */,
+				CF3E61BB28C9AD3A00E08921 /* Frameworks */,
+				CF3E61BC28C9AD3A00E08921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackwichTwo;
+			productName = HackwichTwo;
+			productReference = CF3E61BE28C9AD3A00E08921 /* HackwichTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3E61D328C9AD3B00E08921 /* HackwichTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3E61EB28C9AD3B00E08921 /* Build configuration list for PBXNativeTarget "HackwichTwoTests" */;
+			buildPhases = (
+				CF3E61D028C9AD3B00E08921 /* Sources */,
+				CF3E61D128C9AD3B00E08921 /* Frameworks */,
+				CF3E61D228C9AD3B00E08921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3E61D628C9AD3B00E08921 /* PBXTargetDependency */,
+			);
+			name = HackwichTwoTests;
+			productName = HackwichTwoTests;
+			productReference = CF3E61D428C9AD3B00E08921 /* HackwichTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3E61DE28C9AD3B00E08921 /* HackwichTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3E61EE28C9AD3B00E08921 /* Build configuration list for PBXNativeTarget "HackwichTwoUITests" */;
+			buildPhases = (
+				CF3E61DB28C9AD3B00E08921 /* Sources */,
+				CF3E61DC28C9AD3B00E08921 /* Frameworks */,
+				CF3E61DD28C9AD3B00E08921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3E61E128C9AD3B00E08921 /* PBXTargetDependency */,
+			);
+			name = HackwichTwoUITests;
+			productName = HackwichTwoUITests;
+			productReference = CF3E61DF28C9AD3B00E08921 /* HackwichTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3E61B628C9AD3A00E08921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Charisse Cimafranca";
+				TargetAttributes = {
+					CF3E61BD28C9AD3A00E08921 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CF3E61D328C9AD3B00E08921 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CF3E61BD28C9AD3A00E08921;
+					};
+					CF3E61DE28C9AD3B00E08921 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CF3E61BD28C9AD3A00E08921;
+					};
+				};
+			};
+			buildConfigurationList = CF3E61B928C9AD3A00E08921 /* Build configuration list for PBXProject "HackwichTwo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3E61B528C9AD3A00E08921;
+			productRefGroup = CF3E61BF28C9AD3A00E08921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3E61BD28C9AD3A00E08921 /* HackwichTwo */,
+				CF3E61D328C9AD3B00E08921 /* HackwichTwoTests */,
+				CF3E61DE28C9AD3B00E08921 /* HackwichTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3E61BC28C9AD3A00E08921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E61CE28C9AD3B00E08921 /* LaunchScreen.storyboard in Resources */,
+				CF3E61CB28C9AD3B00E08921 /* Assets.xcassets in Resources */,
+				CF3E61C928C9AD3A00E08921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E61D228C9AD3B00E08921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E61DD28C9AD3B00E08921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3E61BA28C9AD3A00E08921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E61C628C9AD3A00E08921 /* ViewController.swift in Sources */,
+				CF3E61C228C9AD3A00E08921 /* AppDelegate.swift in Sources */,
+				CF3E61C428C9AD3A00E08921 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E61D028C9AD3B00E08921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E61D928C9AD3B00E08921 /* HackwichTwoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E61DB28C9AD3B00E08921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E61E428C9AD3B00E08921 /* HackwichTwoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3E61D628C9AD3B00E08921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3E61BD28C9AD3A00E08921 /* HackwichTwo */;
+			targetProxy = CF3E61D528C9AD3B00E08921 /* PBXContainerItemProxy */;
+		};
+		CF3E61E128C9AD3B00E08921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3E61BD28C9AD3A00E08921 /* HackwichTwo */;
+			targetProxy = CF3E61E028C9AD3B00E08921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3E61C728C9AD3A00E08921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3E61C828C9AD3A00E08921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3E61CC28C9AD3B00E08921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3E61CD28C9AD3B00E08921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3E61E628C9AD3B00E08921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3E61E728C9AD3B00E08921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3E61E928C9AD3B00E08921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 795Q83DUDJ;
+				INFOPLIST_FILE = HackwichTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3E61EA28C9AD3B00E08921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 795Q83DUDJ;
+				INFOPLIST_FILE = HackwichTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF3E61EC28C9AD3B00E08921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 795Q83DUDJ;
+				INFOPLIST_FILE = HackwichTwoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackwichTwo.app/HackwichTwo";
+			};
+			name = Debug;
+		};
+		CF3E61ED28C9AD3B00E08921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 795Q83DUDJ;
+				INFOPLIST_FILE = HackwichTwoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackwichTwo.app/HackwichTwo";
+			};
+			name = Release;
+		};
+		CF3E61EF28C9AD3B00E08921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 795Q83DUDJ;
+				INFOPLIST_FILE = HackwichTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackwichTwo;
+			};
+			name = Debug;
+		};
+		CF3E61F028C9AD3B00E08921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 795Q83DUDJ;
+				INFOPLIST_FILE = HackwichTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackwichTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3E61B928C9AD3A00E08921 /* Build configuration list for PBXProject "HackwichTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E61E628C9AD3B00E08921 /* Debug */,
+				CF3E61E728C9AD3B00E08921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3E61E828C9AD3B00E08921 /* Build configuration list for PBXNativeTarget "HackwichTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E61E928C9AD3B00E08921 /* Debug */,
+				CF3E61EA28C9AD3B00E08921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3E61EB28C9AD3B00E08921 /* Build configuration list for PBXNativeTarget "HackwichTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E61EC28C9AD3B00E08921 /* Debug */,
+				CF3E61ED28C9AD3B00E08921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3E61EE28C9AD3B00E08921 /* Build configuration list for PBXNativeTarget "HackwichTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E61EF28C9AD3B00E08921 /* Debug */,
+				CF3E61F028C9AD3B00E08921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3E61B628C9AD3A00E08921 /* Project object */;
+}
